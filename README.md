@@ -32,6 +32,17 @@
 $ npm install
 ```
 
+## Running migration and seed data
+
+```bash
+# run migration
+$ npx prisma migrate dev --name init
+
+# run seed
+$ npx prisma db seed
+
+```
+
 ## Running the app
 
 ```bash
